@@ -1,0 +1,86 @@
+.formContainer {
+    margin: auto;
+    width: 60%;
+    padding-top: 100px;
+    /* padding-bottom: 50px; */
+}
+
+.loginTitle, .registerTitle {
+    text-align: center;
+}
+
+.form {
+    padding: 30px;
+    margin: auto;
+    box-shadow: 10px 10px 10px rgba(77, 77, 82, 0.3);
+    border-radius: 0 15px 15px 15px;
+    background-color: rgb(247, 247, 247);
+}
+
+.tab {
+    display: flex;
+}
+
+.tabLink {
+    display: block;
+    background-color: rgb(207, 207, 207);
+    color: black;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px 10px 0 0;
+}
+
+.tbActive {
+    background-color: rgb(247, 247, 247);
+    color: black;
+}
+
+.showForm {
+    display: block;
+}
+
+.closeForm {
+    display: none;
+}
+
+input:focus {
+    border: 2px solid rgb(204, 204, 204);
+}
+
+label {
+    display: block;
+    font-size: 22px;
+    padding: 10px 0;
+}
+
+.loginInput, .registerInput {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    margin: 10px 0;
+    border-radius: 10px;
+    outline: none;
+}
+
+.submitBtn {
+    display: block;
+    margin: auto;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    background-color: rgb(122, 122, 122);
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.errText {
+    text-align: center;
+    color: red;
+    font-weight: 700;
+}

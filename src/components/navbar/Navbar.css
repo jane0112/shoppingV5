@@ -1,0 +1,54 @@
+.navbar {
+    position: fixed;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    overflow: hidden;
+    z-index: 999;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-start;
+    color: rgb(233, 233, 233)
+}
+
+.navLink {
+    font-size: 20px;
+    list-style: none;
+    padding: 0 16px;
+}
+
+.cartIcon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 20px;
+    padding: 14px 16px;
+    display: flex;
+}
+
+.badge {
+    display: block;
+    padding: 2px 5px;
+    background-color: tomato;
+    color: whitesmoke;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+i {
+    display: block;
+    cursor: pointer;
+}
+
+.active {
+    color: rgb(241, 241, 241);
+    font-weight: bold;
+    padding: 14px 20px;
+    background-color: rgb(77, 77, 77);
+}
+
+.username {
+    display: block;
+    margin-right: 20px;
+}

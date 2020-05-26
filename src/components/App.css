@@ -1,0 +1,70 @@
+.modal {
+    width: 70%;
+    padding: 15px;
+    position: fixed;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.959);
+    font-size: 20px;
+    color: rgb(59, 59, 59);
+    border: 5px double rgba(54, 67, 75, 0.835);
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .5);
+    z-index: 999;
+    font-weight: bold;
+}
+
+.closebtn {
+    cursor: pointer;
+    position: absolute;
+    right: -20px;
+    top: -20px;
+    font-size: 30px;
+    margin: 5px;
+    padding: 10px;
+    background-color: rgba(46, 61, 61, 0.822);
+    border-radius: 50%;
+    color: white;
+}
+
+.shoppingCart {
+    font-size: 20px;
+    width: 100%;
+}
+
+.deleteBtn {
+    margin-right: 10px;
+    color: rgb(228, 39, 39);
+    cursor: pointer;
+}
+
+thead td {
+    border-bottom: 1px dashed rgb(131, 131, 131);
+}
+
+td:not(:first-child) {
+    text-align: right;
+}
+
+tfoot td {
+    padding: 10px;
+    border-top: 1px dashed rgb(131, 131, 131);
+}
+
+td {
+    padding: 10px;
+}
+
+.close {
+    float: right;
+    border-radius: 10px;
+    outline: none;
+    background-color: rgb(47, 51, 59);
+    border: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    cursor: pointer;
+    margin: 10px;
+}
