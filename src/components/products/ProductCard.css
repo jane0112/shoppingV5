@@ -5,12 +5,11 @@
     margin-top: 30px;
 }
 
-.card:hover .cardLink {
-    box-shadow: 5px 5px 5px rgba(27, 36, 35, 0.698);
+.card:hover .imgContainer {
+    box-shadow: 5px 5px 10px rgba(27, 36, 35, 0.698);
 }
 
-.cardLink {
-    display: block;
+.imgContainer {
     height: 280px;
     width: 280px;
     overflow: hidden;
@@ -37,6 +36,20 @@
 
 .productContent {
     margin-top: 20px;
+}
+
+.productContent h2::after {
+    content: "";
+    display: block;
+    width: 0%;
+    height: 2px;
+    background-color: rgb(92, 122, 121);
+    transition: all .3s ease;
+}
+
+.card:hover .productContent h2:after {
+    content: "";
+    width: 50%;
 }
 
 .addBtn {

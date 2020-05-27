@@ -16,11 +16,11 @@ const Navbar = (props) => {
     return (
         <div className="navbar" >
             <ul className="nav">
-                <li className="navLink">
-                    <Link to="/" className="active">Puducts</Link>
+                <li>
+                    <Link to="/" className="active navLink">Puducts</Link>
                 </li>
-                <li className="navLink logoutBtn" ref={logOutRef} onClick={logOut}>
-                    <Link to="/login">
+                <li ref={logOutRef} onClick={logOut}>
+                    <Link to="/login" className="navLink">
                         {props.isLoggedIn ? 'LogOut' : 'LogIn'}
                     </Link>
                 </li>

@@ -137,6 +137,13 @@ class LoginPage extends React.Component {
                                 onChange={e => { this.setState({ password: e.target.value }) }}
                                 value={this.state.password}
                                 required />
+                            <p>
+                                試用帳號密碼
+                                <br />
+                                會員名稱 : guest1
+                                <br />
+                                密碼 : password2guest1
+                            </p>
                             <button className="submitBtn">確認</button>
                         </form>
                     </div>
@@ -175,13 +182,7 @@ class LoginPage extends React.Component {
                                 onChange={e => { this.setState({ passwordR: e.target.value }) }}
                                 required
                             />
-                            <p>
-                                試用帳號密碼
-                                <br />
-                                會員名稱 : guest1
-                                <br />
-                                密碼 : password2guest1
-                            </p>
+
                             <button className="submitBtn">確認</button>
                         </form>
                     </div>

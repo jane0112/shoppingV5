@@ -44,11 +44,9 @@ class ProductCard extends React.Component {
         return (
 
             <div className="card">
-                < div >
-                    <a href="/" className="cardLink" >
-                        < img src={this.props.image} style={{ width: '100%' }} alt="product" />
-                    </a>
-                </div >
+                <div className="imgContainer">
+                    < img src={this.props.image} style={{ width: '100%' }} alt={this.props.title} />
+                </div>
                 <div className="productContent">
                     <h2>{this.props.title}</h2>
                     <h3> NT${this.props.price}</h3>

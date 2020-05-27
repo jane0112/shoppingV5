@@ -9,13 +9,18 @@
 .nav {
     display: flex;
     justify-content: flex-start;
-    color: rgb(233, 233, 233)
+    list-style: none;
 }
 
 .navLink {
     font-size: 20px;
     list-style: none;
     padding: 0 16px;
+    color: rgb(245, 233, 245)
+}
+
+.navLink:hover {
+    color: rgb(194, 177, 194)
 }
 
 .cartIcon {
@@ -25,13 +30,14 @@
     font-size: 20px;
     padding: 14px 16px;
     display: flex;
+    color: rgb(245, 233, 245)
 }
 
 .badge {
     display: block;
     padding: 2px 5px;
     background-color: tomato;
-    color: whitesmoke;
+    color: rgb(255, 255, 255);
     border-radius: 10px;
     font-size: 16px;
 }
